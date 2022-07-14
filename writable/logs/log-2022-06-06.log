@@ -1,0 +1,26 @@
+CRITICAL - 2022-06-06 06:37:51 --> Unknown column 'users.id' in 'order clause'
+#0 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Model.php(482): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-basic-ci4-master\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Login->auth()
+#7 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-basic-ci4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-06 06:38:39 --> Unknown column 'users.id' in 'order clause'
+#0 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Model.php(482): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud-basic-ci4-master\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Login->auth()
+#7 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\crud-basic-ci4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\crud-basic-ci4-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
